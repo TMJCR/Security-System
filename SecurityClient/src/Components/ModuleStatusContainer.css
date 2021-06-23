@@ -1,0 +1,29 @@
+.ModuleStatus {
+  margin: 10px;
+}
+
+.ModuleStatusLoader {
+  margin-top: 10px;
+  border: 1px solid var(--security-light-grey);
+  background-color: var(--security-grey);
+  font-size: 0.6em;
+  padding: 5px;
+  text-align: end;
+  opacity: 0.5;
+}
+@media (max-width: 1400px) {
+  .ModuleStatusTitle {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ModuleStatusLoader {
+    text-align: right;
+    font-size: 0.7em;
+  }
+  .ModuleStatusTitle {
+    font-size: 0.8em;
+    text-align: center;
+  }
+}

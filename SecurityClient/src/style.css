@@ -1,0 +1,84 @@
+body {
+  padding: 50px;
+  font: 18px "Industry", monospace, Helvetica, Arial, sans-serif;
+}
+
+.App {
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px; */
+}
+
+a {
+  color: #00b7ff;
+}
+
+.Sensor {
+  width: 80px;
+  height: 80px;
+  background-color: #808080;
+  margin: 5px;
+  text-align: center;
+}
+
+.Alarm {
+  width: 80px;
+  height: 80px;
+  background-color: #fb0000;
+  margin: 5px;
+  text-align: center;
+  display: flex;
+}
+
+.Camera {
+  width: 80px;
+  height: 80px;
+  background-color: #41d1e4;
+  margin: 5px;
+  text-align: center;
+}
+
+.DoorSensor {
+  width: 80px;
+  height: 80px;
+  background-color: #00ff00;
+  margin: 5px;
+  text-align: center;
+}
+
+.Log {
+  list-style: none;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: "Industry", monospace;
+  text-transform: uppercase;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: var(--security-light-grey);
+}
+
+button:focus {
+  outline: 1px solid #fff;
+}
+
+button:active {
+  transform: scale(0.99);
+}

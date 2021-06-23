@@ -1,0 +1,157 @@
+.Floorplan {
+  padding: 1em;
+}
+
+.doorSensorSVG {
+  pointer-events: bounding-box;
+}
+.triggerZone .triggerEXTZoneSensor {
+  opacity: 1;
+}
+
+.alertSensorOff {
+  display: none;
+}
+
+.triggerZoneCenterActivated rect {
+  opacity: 0.6;
+}
+
+.triggerZoneCenter rect {
+  opacity: 0.3;
+}
+
+.triggerZone:hover .triggerEXTZoneSensor {
+  opacity: 0.9;
+  fill: var(--security-red);
+}
+
+.triggerZoneCenter rect:hover {
+  opacity: 0.6;
+}
+
+.zoneAlert {
+  fill: black;
+  pointer-events: none;
+  opacity: 0.8;
+  stroke: var(--security-red);
+  stroke-width: 12px;
+}
+
+.Unrestricted {
+  fill: var(--security-green);
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.UnrestrictedNumber {
+  fill: var(--security-green);
+  font-size: 34px;
+}
+.UnrestrictedZone {
+  fill: var(--security-dark-grey);
+  stroke: var(--security-green);
+  stroke-width: 15px;
+  stroke-opacity: 0.5;
+  pointer-events: stroke;
+}
+
+.alarmAlert {
+  animation: alarmAlerter 0.5s ease-in-out infinite;
+}
+
+@keyframes alarmAlerter {
+  50% {
+    /* opacity: 0; */
+    fill: red;
+  }
+}
+
+.CameraSVGOff {
+  opacity: 0;
+}
+
+.doorLabelSvg {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  user-select: none;
+}
+
+.doorSensorSVG {
+  cursor: pointer;
+}
+.doorSensorSVG:hover line {
+  stroke-width: 2px;
+}
+.doorSensorSVG g,
+line {
+  pointer-events: none;
+}
+
+.DoorLabelText {
+  fill: white;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.SensorLine {
+  pointer-events: none;
+}
+
+.red line {
+  stroke-width: 2px;
+  stroke: var(--security-red);
+}
+
+.green line {
+  stroke-width: 2px;
+  stroke: var(--security-green);
+}
+
+.grey line {
+  stroke-width: 2px;
+  stroke: #fff;
+}
+
+.rebootInner {
+  animation: rebootAnimationInner 3s linear;
+}
+.rebootOuter {
+  animation: rebootAnimationOuter 3s linear;
+}
+@keyframes rebootAnimationOuter {
+  0% {
+    stroke-dasharray: 150;
+  }
+
+  100% {
+    stroke-dashoffset: 800;
+    stroke-dasharray: 100;
+  }
+}
+
+@keyframes rebootAnimationInner {
+  0% {
+    stroke-dasharray: 150;
+  }
+
+  100% {
+    stroke-dashoffset: 200;
+    stroke-dasharray: 100;
+  }
+}
+
+@media (min-width: 2000px) {
+  .Floorplan {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .Floorplan {
+    padding: 0;
+  }
+}

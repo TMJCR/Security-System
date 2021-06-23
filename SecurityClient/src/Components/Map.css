@@ -1,0 +1,507 @@
+.cls-1,
+.cls-11,
+.cls-14,
+.cls-15,
+.cls-18,
+.cls-19,
+.cls-38,
+.cls-45,
+.cls-46,
+.cls-5,
+.cls-6,
+.cls-62,
+.cls-8,
+.cls-9 {
+  fill: none;
+}
+.cls-2,
+.cls-3 {
+  fill: #212121;
+}
+.cls-2,
+.cls-63 {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+.cls-4 {
+  opacity: 0.6;
+}
+.cls-11,
+.cls-12,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-5,
+.cls-6,
+.cls-8,
+.cls-9 {
+  stroke: red;
+}
+.cls-11,
+.cls-12,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-18,
+.cls-19,
+.cls-5,
+.cls-6,
+.cls-8,
+.cls-9 {
+  stroke-miterlimit: 10;
+}
+.cls-6 {
+  opacity: 0.51;
+}
+.cls-7 {
+  opacity: 0.3;
+}
+.cls-15,
+.cls-8,
+.cls-9 {
+  stroke-width: 3px;
+}
+.cls-60,
+.cls-64,
+.cls-9 {
+  opacity: 0.5;
+}
+.cls-10 {
+  opacity: 0.2;
+}
+.cls-11 {
+  stroke-width: 6px;
+}
+.cls-12,
+.cls-13 {
+  fill: #352626;
+}
+.cls-12 {
+  opacity: 0.35;
+}
+.cls-112,
+.cls-114,
+.cls-116,
+.cls-117,
+.cls-12,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-19,
+.cls-20,
+.cls-22,
+.cls-23,
+.cls-28,
+.cls-32,
+.cls-34,
+.cls-40,
+.cls-43,
+.cls-44,
+.cls-47,
+.cls-48,
+.cls-51,
+.cls-54,
+.cls-57,
+.cls-64,
+.cls-65,
+.cls-73,
+.cls-84,
+.cls-93,
+.cls-96 {
+  isolation: isolate;
+}
+.cls-13 {
+  opacity: 0.61;
+}
+.cls-14 {
+  opacity: 0.3;
+}
+.cls-15 {
+  opacity: 0.2;
+}
+.cls-16 {
+  opacity: 0.19;
+}
+.cls-17 {
+  opacity: 0.16;
+}
+.cls-18,
+.cls-38,
+.cls-45,
+.cls-46 {
+  stroke: #d10000;
+}
+.cls-19,
+.cls-62 {
+  stroke: #fff;
+}
+.cls-19 {
+  stroke-width: 2px;
+}
+.cls-19,
+.cls-20 {
+  opacity: 0.22;
+}
+.cls-21,
+.cls-37,
+.cls-44,
+.cls-54,
+.cls-57 {
+  fill: #d10000;
+}
+.cls-21 {
+  opacity: 0.7;
+}
+.cls-23,
+.cls-32,
+.cls-34 {
+  font-size: 6.87px;
+}
+.cls-23,
+.cls-32,
+.cls-34,
+.cls-40,
+.cls-43,
+.cls-47,
+.cls-51,
+.cls-65,
+.cls-73,
+.cls-84,
+.cls-93,
+.cls-96 {
+  fill: #fff;
+}
+.cls-112,
+.cls-114,
+.cls-116,
+.cls-117,
+.cls-23,
+.cls-32,
+.cls-34,
+.cls-40,
+.cls-47,
+.cls-51,
+.cls-65,
+.cls-73,
+.cls-84,
+.cls-93 {
+  font-family: Industry-Light, Industry, monospace;
+  font-weight: 300;
+}
+.cls-23,
+.cls-36 {
+  letter-spacing: 0.04em;
+}
+.cls-24 {
+  letter-spacing: 0.04em;
+}
+.cls-25 {
+  letter-spacing: 0.05em;
+}
+.cls-26 {
+  letter-spacing: 0.04em;
+}
+.cls-27 {
+  letter-spacing: -0.05em;
+}
+.cls-28 {
+  font-size: 13.74px;
+  fill: #d02b17;
+  letter-spacing: 0.05em;
+}
+.cls-28,
+.cls-43,
+.cls-44,
+.cls-48 {
+  font-family: Industry-Medium, Industry, monospace;
+  font-weight: 500;
+}
+.cls-29 {
+  letter-spacing: 0.03em;
+}
+.cls-30 {
+  letter-spacing: 0.04em;
+}
+.cls-31 {
+  letter-spacing: 0.03em;
+}
+.cls-32 {
+  letter-spacing: 0.05em;
+}
+.cls-33 {
+  letter-spacing: -0.04em;
+}
+.cls-34 {
+  letter-spacing: 0.04em;
+}
+.cls-35 {
+  letter-spacing: 0.04em;
+}
+.cls-38 {
+  stroke-miterlimit: 4;
+}
+.cls-39 {
+  clip-path: url(#clip-path);
+}
+.cls-40 {
+  font-size: 4.91px;
+  letter-spacing: 0.05em;
+}
+.cls-41 {
+  letter-spacing: 0.04em;
+}
+.cls-42 {
+  letter-spacing: -0.05em;
+}
+.cls-43,
+.cls-44 {
+  font-size: 9.82px;
+  letter-spacing: 0.05em;
+}
+.cls-47 {
+  font-size: 31.71px;
+  letter-spacing: 0.05em;
+}
+.cls-48 {
+  font-size: 10.57px;
+  fill: #c7d0d6;
+  letter-spacing: 0.05em;
+}
+.cls-49 {
+  letter-spacing: 0.04em;
+}
+.cls-50 {
+  letter-spacing: 0.04em;
+}
+.cls-51 {
+  font-size: 5.29px;
+  letter-spacing: 0.05em;
+}
+.cls-52 {
+  letter-spacing: 0.05em;
+}
+.cls-53 {
+  letter-spacing: 0.04em;
+}
+.cls-54,
+.cls-57 {
+  font-size: 33.82px;
+  font-family: Industry-Bold, Industry, monospace;
+  font-weight: 700;
+}
+.cls-54 {
+  letter-spacing: 0.05em;
+}
+.cls-55 {
+  clip-path: url(#clip-path-2);
+}
+.cls-56 {
+  clip-path: url(#clip-path-3);
+}
+.cls-57 {
+  letter-spacing: 0.05em;
+}
+.cls-58 {
+  clip-path: url(#clip-path-4);
+}
+.cls-59 {
+  clip-path: url(#clip-path-5);
+}
+.cls-61 {
+  clip-path: url(#clip-path-6);
+}
+.cls-62 {
+  stroke-width: 0.5px;
+}
+.cls-65,
+.cls-73 {
+  font-size: 14px;
+}
+.cls-65,
+.cls-70 {
+  letter-spacing: 0.05em;
+}
+.cls-114,
+.cls-66 {
+  letter-spacing: 0.04em;
+}
+.cls-67 {
+  letter-spacing: 0.04em;
+}
+.cls-68,
+.cls-73 {
+  letter-spacing: 0.05em;
+}
+.cls-69 {
+  letter-spacing: 0.04em;
+}
+.cls-71 {
+  clip-path: url(#clip-path-7);
+}
+.cls-72 {
+  clip-path: url(#clip-path-8);
+}
+.cls-74 {
+  letter-spacing: 0.05em;
+}
+.cls-75 {
+  letter-spacing: 0.04em;
+}
+.cls-76 {
+  clip-path: url(#clip-path-9);
+}
+.cls-77 {
+  clip-path: url(#clip-path-10);
+}
+.cls-78 {
+  clip-path: url(#clip-path-11);
+}
+.cls-79 {
+  clip-path: url(#clip-path-12);
+}
+.cls-80 {
+  clip-path: url(#clip-path-13);
+}
+.cls-81 {
+  clip-path: url(#clip-path-14);
+}
+.cls-82 {
+  clip-path: url(#clip-path-15);
+}
+.cls-83 {
+  clip-path: url(#clip-path-16);
+}
+.cls-84 {
+  font-size: 12.6px;
+}
+.cls-84,
+.cls-90 {
+  letter-spacing: 0.05em;
+}
+.cls-85 {
+  letter-spacing: 0.04em;
+}
+.cls-86 {
+  letter-spacing: 0.04em;
+}
+.cls-87 {
+  letter-spacing: 0.05em;
+}
+.cls-88 {
+  letter-spacing: 0.04em;
+}
+.cls-89 {
+  letter-spacing: 0.04em;
+}
+.cls-91 {
+  clip-path: url(#clip-path-17);
+}
+.cls-92 {
+  clip-path: url(#clip-path-18);
+}
+.cls-93 {
+  font-size: 6.9px;
+  letter-spacing: 0.05em;
+}
+.cls-94 {
+  letter-spacing: 0.04em;
+}
+.cls-95 {
+  letter-spacing: 0.04em;
+}
+.cls-96 {
+  font-size: 20.7px;
+  font-family: Industry-Book, Industry, monospace;
+  letter-spacing: -0.01em;
+}
+.cls-97 {
+  letter-spacing: 0em;
+}
+.cls-98 {
+  letter-spacing: 0.01em;
+}
+.cls-99 {
+  letter-spacing: 0em;
+}
+.cls-100 {
+  letter-spacing: -0.06em;
+}
+.cls-101 {
+  clip-path: url(#clip-path-19);
+}
+.cls-102 {
+  clip-path: url(#clip-path-20);
+}
+.cls-103 {
+  clip-path: url(#clip-path-21);
+}
+.cls-104 {
+  clip-path: url(#clip-path-22);
+}
+.cls-105 {
+  letter-spacing: -0.01em;
+}
+.cls-106 {
+  clip-path: url(#clip-path-23);
+}
+.cls-107 {
+  clip-path: url(#clip-path-24);
+}
+.cls-108 {
+  letter-spacing: 0.01em;
+}
+.cls-109 {
+  clip-path: url(#clip-path-25);
+}
+.cls-110 {
+  clip-path: url(#clip-path-26);
+}
+.cls-111 {
+  fill: #009245;
+}
+.cls-112,
+.cls-116 {
+  font-size: 4.8px;
+}
+.cls-112,
+.cls-114,
+.cls-116,
+.cls-117 {
+  fill: #0f7b00;
+}
+.cls-112 {
+  letter-spacing: 0.14em;
+}
+.cls-113 {
+  letter-spacing: 0.13em;
+}
+.cls-114,
+.cls-117 {
+  font-size: 18px;
+}
+.cls-115 {
+  letter-spacing: 0.05em;
+}
+.cls-116 {
+  letter-spacing: 0.14em;
+}
+.cls-117 {
+  letter-spacing: 0.04em;
+}
+.cls-118 {
+  letter-spacing: 0.05em;
+}
+.cls-22,
+.cls-64,
+.cls-97,
+.cls-98,
+.cls-99 {
+  user-select: none;
+}
+
+.doorSensorClick {
+  cursor: pointer;
+  opacity: 0;
+}

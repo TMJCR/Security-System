@@ -1,0 +1,80 @@
+.ModuleStatusList {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0.3em;
+  letter-spacing: 0.03em;
+}
+
+.ModuleStatusStatus {
+  margin-left: 1em;
+  display: inline-block;
+  width: 1.3em;
+  padding: 3px;
+  border-radius: 100%;
+}
+
+.ModuleStatusName {
+  font-size: 0.7em;
+}
+.ModuleStatusText {
+  font-size: 0.4em;
+  color: var(--security-light-grey);
+}
+
+.ModuleStatusList .green {
+  background-color: var(--security-green);
+}
+
+.ModuleStatusList .red {
+  background-color: var(--security-red);
+}
+
+.ModuleStatusList .grey {
+  background-color: var(--security-grey);
+}
+
+@media (max-width: 1400px) {
+  .ModuleStatusList {
+    margin: 1em 0.1em;
+    font-size: 1em;
+    justify-content: space-between;
+  }
+  .ModuleStatusName {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ModuleStatusList {
+    margin: 3px;
+    font-size: 1.2em;
+    letter-spacing: 0.13em;
+    justify-content: space-between;
+  }
+
+  .ModuleStatusStatus {
+    margin-left: 1em;
+    display: inline-block;
+    width: 1em;
+    padding: 2px;
+    border-radius: 100%;
+  }
+
+  .ModuleStatusText {
+    font-size: 0.5em;
+    margin-right: 1px;
+  }
+
+  .ModuleStatusName {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .ModuleStatusList {
+    font-size: 1em;
+    letter-spacing: 0.12em;
+  }
+}

@@ -1,0 +1,154 @@
+.Console {
+  margin: 1em;
+  padding: 0.2em 0.2em 0 0;
+  border: 2px Solid var(--border-color);
+  color: var(--security-green);
+}
+
+.ConsoleType {
+  font-size: 0.8em;
+}
+
+.AccessLevelButtonContainer {
+  cursor: pointer;
+  min-height: 120px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+  margin: 1em;
+}
+
+.AccessButton {
+  cursor: pointer;
+  margin: 1em;
+  height: 100%;
+  min-width: 180px;
+  padding: 0 0 0 10px;
+  background: repeating-linear-gradient(
+    135deg,
+    #fff,
+    #fff 1px,
+    var(--border-color) 1px,
+    var(--border-color) 2px
+  );
+}
+
+.AccessButtonText {
+  padding: 2px;
+  margin: 0;
+  pointer-events: none;
+}
+
+.AccessButtonSubText {
+  padding: 0.3em 0 0 0;
+  margin: 0;
+  font-size: 0.6em;
+  color: #eee;
+  letter-spacing: 2px;
+  pointer-events: none;
+}
+
+.FullAccessButton div {
+  background-color: var(--security-green);
+}
+
+.RestrictedAccessButton div {
+  background-color: var(--security-grey);
+}
+
+.NoAccessButton div {
+  background-color: var(--security-red);
+}
+
+.Console div {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid var(--security-green); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0; /*Gives that scrolling effect as the typing happens*/
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 4s steps(75, end), blink-caret 0.75s step-end infinite;
+  width: fit-content;
+  padding: 0.3em 0.5em;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--security-green);
+  }
+}
+@media (max-width: 1400px) {
+  .AccessButton {
+    font-size: 0.9em;
+    min-width: 120px;
+  }
+  .ConsoleType {
+    font-size: 0.65em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .AccessLevelButtonContainer {
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .AccessButton {
+    font-size: 1em;
+    margin: 1em;
+    min-width: 120px;
+    padding: 0;
+  }
+
+  .ConsoleType {
+    font-size: 0.6em;
+    overflow: scroll;
+    max-width: 90%;
+  }
+
+  .AccessButtonText {
+    font-size: 0.9em;
+    padding: 2px;
+    margin: 0;
+    pointer-events: none;
+  }
+
+  .AccessButtonSubText {
+    letter-spacing: 1px;
+    padding: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .AccessButton {
+    font-size: 0.8em;
+    margin: 1.4em;
+    min-width: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .AccessButton {
+    font-size: 0.5em;
+    min-width: auto;
+  }
+
+  .ConsoleType {
+    font-size: 0.45em;
+  }
+}

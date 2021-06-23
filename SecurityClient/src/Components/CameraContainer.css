@@ -1,0 +1,26 @@
+.CameraContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../Camera.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 220px;
+  /* position: relative;
+  text-align: center; */
+}
+
+.CameraText {
+  color: var(--security-red);
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.CameraImage {
+  width: 100%;
+}

@@ -1,0 +1,107 @@
+.KeypadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.KeypadText {
+}
+
+.KeypadTextUpper {
+  color: var(--security-light-grey);
+  font-size: 0.6em;
+}
+
+.KeypadTextMain {
+  color: var(--security-red);
+  font-size: 1em;
+}
+
+.KeypadTextLower {
+  display: flex;
+  justify-content: space-between;
+  color: var(--security-light-grey);
+  font-size: 0.5em;
+}
+
+.KeypadInputs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 1.5em 0;
+}
+
+.KeypadInput {
+  border: 1px solid var(--security-light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+  color: var(--security-red);
+  opacity: 0.55;
+}
+
+.KeypadNumbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+.Active {
+  border: 2px solid red;
+}
+
+.KeypadNumber {
+  padding: 0;
+  height: 3em;
+  background-color: var(--security-dark-grey);
+  color: var(--security-light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+}
+.KeypadNumber:focus,
+.KeypadNumber:hover {
+  color: var(--security-dark-grey);
+}
+.KeypadTextInput {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.OK {
+  color: var(--security-green);
+}
+button:disabled {
+  color: var(--security-light-grey);
+}
+.Changed {
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .KeypadTextMain {
+    font-size: 0.8em;
+  }
+  .KeypadInput {
+    padding: 1em 0.5em;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .KeypadTextMain {
+    font-size: 1em;
+  }
+  .KeypadInput {
+    padding: 1em 0;
+    font-size: 1.6em;
+  }
+  .KeypadTextInput {
+    display: none;
+  }
+}

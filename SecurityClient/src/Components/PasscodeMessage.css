@@ -1,0 +1,45 @@
+.PasscodeMessageContainer {
+  /* border: 2px solid red; */
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.PasscodeMessageTitle {
+  font-size: 0.8em;
+
+  color: var(--security-light-grey);
+}
+
+.PasscodeMessageText {
+  font-size: 0.6em;
+}
+
+.PasscodeMessageSubText {
+  display: flex;
+  color: var(--security-red);
+  font-size: 0.9em;
+  justify-content: center;
+}
+
+.PasscodeMessagePasscode {
+  color: var(--security-green);
+  font-size: 1.4em;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 1024px) {
+  .PasscodeMessagePasscode {
+    font-size: 1em;
+  }
+  .PasscodeMessageTitle {
+    font-size: 0.7em;
+  }
+  .PasscodeMessageText {
+    font-size: 0.4em;
+  }
+
+  .PasscodeMessageSubText {
+    font-size: 0.6em;
+    letter-spacing: 1px;
+  }
+}

@@ -1,0 +1,40 @@
+.ModuleContainer {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1.5em 0.5em 0 0.5em;
+}
+
+.ModuleTypeUpperText {
+  font-size: 0.4em;
+  color: var(--security-light-grey);
+}
+
+.ModuleType {
+  margin: 0.4em;
+}
+
+.ModuleTypeLowerText {
+  font-size: 0.4em;
+  color: var(--security-red);
+}
+
+@media (max-width: 1024px) {
+  .ModuleContainer {
+    text-align: left;
+  }
+  .ModuleTypeLowerText {
+    font-size: 0.6em;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .ModuleTypeUpperText {
+    font-size: 0.6em;
+    margin: 0 0.5em;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  .ModuleType {
+    font-size: 1.2em;
+    text-align: center;
+  }
+}

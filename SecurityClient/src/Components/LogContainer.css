@@ -1,0 +1,63 @@
+.LogContainer {
+  min-height: 500px;
+}
+.ActivityLog {
+  padding: 1em;
+  line-height: 2em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+.LogTitle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 6fr;
+}
+.LogTitleDate {
+}
+.LogTitleActivity {
+}
+.ActivityLogList {
+  padding: 0;
+}
+.Log {
+  display: grid;
+  grid-template-columns: 1fr 1fr 6fr;
+  color: var(--security-light-grey);
+  opacity: 0.62;
+}
+
+.LogSuccess {
+  color: var(--security-green);
+}
+.LogAlert {
+  color: var(--security-red);
+}
+
+.LogWarning {
+  color: var(--security-amber);
+}
+
+.LogInformational {
+  color: var(--security-);
+}
+.LoadingText {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@media (max-width: 1024px) {
+  .ActivityLog {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 768px) {
+  .ActivityLog {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .ActivityLog {
+    font-size: 0.5em;
+  }
+}
