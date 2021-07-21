@@ -1,7 +1,7 @@
 # Security-System
 Full-stack MERN application using an interactive SVG to simulate real-life interactions with a security system running on Node.js.
 
-<img src="./Thumbnail_.png">
+<img src="./Thumbnail.png">
 
 -How I built this:
 * This was for a real client so sat with the owner to discuss exactly what he wanted from the application.
