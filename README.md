@@ -3,7 +3,7 @@ This is a full-stack MERN application which uses an interactive SVG to simulate 
 
 <img src="./Thumbnail.png">
 
--How I built this:
+## How I built this:
 * Originally I built this as a purely server-side application to enable a security system to run on node.js. The application has a security system class at its core which is made up of nodes of security equipment, e.g. cameras, alarms, doors, sensors, keypads etc. Each piece of equipment is an instance of a class corresponding to its type which has relevant methods attached, e.g. a sensor would have a method to detect movement, a method to trigger the correct alarm etc.
 * In order to demonstrate and test the security system, I built a front-end React application. This involved creating an SVG which was drawn in Adobe Illustrator that is essentially a hypothetical floorplan which is split into zones, each with a camera, a motion sensor and several doors. Each zone has a restriction level (which can be changed to test the system) which determines if the zone will respond to activity, to imitate a real life system being armed or unarmed.
 * I built the system in such a way that the front-end React application should be able to be replaced with real hardware, for example a motion sensor running on a Raspberry Pi which can send a HTTP request. The server will then act as a live control center for processing all inputs and return the correct response, e.g. sound an alarm or store the corresponding camera footage.
@@ -12,13 +12,13 @@ This is a full-stack MERN application which uses an interactive SVG to simulate 
 * The activity log is also an important part of the application in that every interaction in the security system is recorded in a log and stored in a mongo database. This updating activity log is displayed at the bottom of the React front-end. 
 * In terms of the virtual equipment (cameras,sensors,doors etc.), the only thing that is stored on the database is the model number of each piece and its type. When the server boots up, it launches the security system; the equipment is fetched from the database, then each is instantiated with the type specific class, a confirmation that the equipment is running is added to the activity log and the system will then be 'live' waiting to respond to any requests that are sent to the server from the browser.
 
--What I learnt:
+## What I learnt:
 * The most interesting part of creating this project was to build a 'live' system that represents a real life security network. The nature of this objective leant itself well to taking an object-oriented approach where the security system and all its inherent parts are represented as objects.  
 * In order to have a front-end and back-end working in sync involved working with cors to enable the two sides to communicate with each other.
 * Prior to building a front-end to interact with the system, I had been experimenting with hardware. I learnt how to use a breadboard and GPIO ports to wire up a Raspberry Pi and proximity sensor to initiate an event when the sensor is triggered. 
 * I learnt how to combine Adobe Illustrator and the browser to create an interactive SVG. I also used the CSS property stroke-dashoffset to create an interesting animation to give the appearance that the security system is resetting itself once the correct password is typed in. 
 
--What I would do differently if I were to do it again:
+## What I would do differently if I were to do it again:
 * Instead of using a traditional HTTP request/response it may have been advantageous to use WebSockets. The main benefit of this would be avoiding the HTTP request/response overhead for each event triggered in the browser, which would result in faster reaction time.  
 * I still intend to implement the hardware components using a Raspberry Pi to run the applications as a real security system at home.  
 * To create the SVG, I designed the layout in Adobe Illustrator and exported it as SVG code all contained in one file. To then wire up the React event listeners such as onClick and onHover I manually amended the SVG in several different parts. For my purpose, this was fine as it was for demonstration, however if the SVG ever needs to change or be re-used on a different floor plan, I would need a much more streamlined way of doing this. I could possibly break the SVG into components, at least for the interactive parts of the SVG and include a coordinate argument which would determine where it is located on screen. This would reduce quite a bit of code duplication and be much easier to amend if any changes are required.
